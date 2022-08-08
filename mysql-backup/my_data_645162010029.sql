@@ -30,7 +30,7 @@ CREATE TABLE `users` (
   `tellnumber` varchar(50) NOT NULL,
   `email` varchar(100) NOT NULL,
   PRIMARY KEY (`studentID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('มหาลัยทดสอบ 1','123456789','นายทดสอบ 1','ทดสอบ 1','123456789','test@mail.co.th'),('มหาลัยทดสอบ 3','44444444','นายทดสอบ3','ทดสอบ3','666666666','test3@mail.com'),('มหาลัยทดสอบ 2','987654321','นายทดสอบ 2','ทดสอบ 2','987654321','test2@mail.co.th'),('wrererer','erewrwerwr','werwrerer','wrerwrer','34343434','3434343434'),('fgfgfgfg','fgfgfg','fgfgfgfgf','fgfgfgfgf','fgfgfgfg','fgfgfgfg');
+INSERT INTO `users` VALUES ('test 1','111111','test 1','test 1','08xxxxxxx','test@mail.co.th'),('test 2','222222','test 2','test 2','08xxxxxxx','test3@mail.com'),('test 3','333333','test 3','test 3','08xxxxxxx','test2@mail.co.th');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-08-05  4:31:37
+-- Dump completed on 2022-08-08  4:44:40

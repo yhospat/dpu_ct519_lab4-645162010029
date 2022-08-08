@@ -19,7 +19,7 @@ services:
   sv_db:
     image: mysql:5.6
     volumes:
-    - ./mysql-backup/:/docker-entrypoint-initdb.d/
+    - ./mysql-backup/my_data_645162010029.sql:/docker-entrypoint-initdb.d/my_data_645162010029.sql:ro
     container_name: db
     restart: always
     environment:
